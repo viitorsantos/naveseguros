@@ -32,18 +32,56 @@
 <body>
 	<div class="container">
 		<div class="row" id="tipo">
-			<div class="col-md-offset-3 col-xs-12">
-				<div>O seguro que você precisa é ?</div>
+			<div class="col-xs-12">
+				<div>Digite as informações e entraremos em contato com você</div>
 			</div>
 		</div>
 		<br><br>
 		<div class="row">
-			<div class="col-md-offset-4 col-md-2">
-				<a href="seguronovo.php"><button type="button" class="btn btn-secondary btn-lg botao">Seguro Novo</button></a>
+			<form method="POST" enctype="multipart/form-data" action="">
+			<div class="centro">
+				<div class='row'>
+					<div class='col-md-offset-3 col-md-3'>	
+						<div class="form-group">
+							<label>Nome</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class='col-md-2'>	
+						<div class="form-group">
+							<label>CPF</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='col-md-offset-3 col-md-2'>	
+						<div class="form-group">
+							<label>Placa do Veiculo</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class='col-md-2'>	
+						<div class="form-group">
+							<label>Ano/Modelo Fab.</label>
+							<input type="text" class="form-control" placeholder="Exemplo 2017/2018" required>
+						</div>
+					</div>
+					<div class='col-md-3'>	
+						<div class="form-group">
+							<label>WhatsApp para Contato</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-offset-5">
+						<input type="submit" name="enviar" value="Enviar" class="btn btn-success">
+					</div>
+				</div>
 			</div>
-			<div class="col-md-2">
-				<button type="button" class="btn btn-secondary btn-lg botao">Renovação</button>
-			</div>
+		</form>
 		</div>
 		
 	</div>
