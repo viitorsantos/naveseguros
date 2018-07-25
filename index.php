@@ -123,7 +123,7 @@
                     <div class="col-md-8 col-md-offset-2">
                         <p class="intro-text">
 							Valor exato do seguro de seu veículo no menor tempo possível com uma
-							consultoria especilizada
+							consultoria especializada
 							<br><br>
 							
 							<a href="cotacao/cotacao.php" target="_blank">
@@ -143,7 +143,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h2>A corretora</h2>
 						<p>O sistema <a href="">Nave Seguros</a> surgiu para fechar o seguro do seu carro
-							em, no máximo, 1(uma) hora durante o horário comercial.
+							no menor tempo possível durante o horário comercial.
 						</p>
 					<p><a href="cotacao/cotacao.php" target="_blank">INICIAR COTAÇÃO</a></p>
 				</div>
