@@ -53,10 +53,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="seguro carro">
     <meta name="author" content="">
 
-    <title>Corretora Virtual</title>
+    <title>Nave Seguros - Corretora Virtual</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -65,6 +65,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="img/nave.ico" rel="icon"/>
 
     <!-- Theme CSS -->
     <link href="css/estilo.css" rel="stylesheet">
@@ -75,6 +76,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124155406-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-124155406-1');
+	</script>
 
 </head>
 
@@ -88,7 +99,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                   Nave Seguros
+                   <img src="img/logonave.png" id="logonave" class="img-responsive">
                 </a>
             </div>
 
@@ -100,7 +111,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#cotacao">A Corretora</a>
+                        <a class="page-scroll" href="#cotacao">Quem Somos</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#download">Parceiros</a>
@@ -122,12 +133,11 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <p class="intro-text">
-							Valor exato do seguro de seu veículo no menor tempo possível com uma
-							consultoria especializada
+							O seguro do seu carro com rapidez e consultoria especializada
 							<br><br>
 							
 							<a href="cotacao/cotacao.php" target="_blank">
-								<button class="btn btn-default btn-lg">Solicite sua cotação</button>
+								<button class="btn btn-default btn-lg">Solicite cotação</button>
 							</a>
 						</p>
                     </div>
@@ -141,9 +151,10 @@
 		<div class="cotacao-section">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h2>A corretora</h2>
-						<p>O sistema <a href="">Nave Seguros</a> surgiu para fechar o seguro do seu carro
-							no menor tempo possível durante o horário comercial.
+					<h2>Quem Somos</h2>
+						<p>A Nave Corretora de Seguros surgiu para fechar o seguro do seu carro
+							no menor tempo possível durante o horário comercial, é fácil, simples e rápido. Solicite 
+							sua cotação conosco sem compromisso.
 						</p>
 					<p><a href="cotacao/cotacao.php" target="_blank">INICIAR COTAÇÃO</a></p>
 				</div>
@@ -157,8 +168,8 @@
             <div class="container">
 			<h2>Parceiros</h2>
                 <div class="row">
-                    <div class="col-sm-2 col-xs-6 celular">
-						<img src="img/alfa.jpg" class="img-responsive">
+					<div class="col-sm-2 col-xs-6 celular">
+						<img src="img/allianz.png" class="img-responsive">
 					</div>
 					
 					<div class="col-sm-2 col-xs-6 celular">
@@ -170,19 +181,18 @@
 					</div>
 					
 					<div class="col-sm-2 col-xs-6 celular">
-						<img src="img/porto.jpg" class="img-responsive">
+						<img src="img/porto.png" class="img-responsive">
 					</div>
 					
 					<div class="col-sm-2 col-xs-6 celular">
 						<img src="img/sompo.png" class="img-responsive">
 					</div>
-					
 					<div class="col-sm-2 col-xs-6 celular">
-						<img src="img/tokio.jpg" class="img-responsive">
+						<img src="img/tokio.png" class="img-responsive">
 					</div>
 					
                 </div>
-			
+				
             </div>
         </div>
     </section>
@@ -193,7 +203,7 @@
 			<div class="col-xs-12">
 				<div class="page-header">
 					<h2>Entre em Contato Conosco</h2>
-					<h4>Email: contato@naveseguros.com.br</h4>
+					<h4 id="email">Email: contato@naveseguros.com.br</h4>
 					Todos os campos de preenchimento obrigatório.
 				</div>
 			</div>
